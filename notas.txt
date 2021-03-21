@@ -1,0 +1,6 @@
+#crear contenedores
+docker-compose up
+#levantar
+docker-compose start
+#parar 
+docker-compose stop

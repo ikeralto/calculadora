@@ -1,0 +1,13 @@
+services:
+  calculadora1:
+    build: .
+    ports:
+      - "8081:8081"
+  calculadora2:
+    image: ikeralto/calculadora
+    ports:
+      - "8082:8081"
+  calculadora3:
+    image: ikeralto/calculadora
+    ports:
+      - "8083:8081"
